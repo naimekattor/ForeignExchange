@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Proza+Libre:400,500,600,700|Raleway:300,400,500,600,700&display=swap');
+/*-----font-family: 'Raleway', sans-serif;
+font-family: 'Proza Libre', sans-serif;
+font-family: 'Merriweather', serif;
+-------*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+}
+ul,ol
+{
+	list-style: none;
+}
+
+
+#header-area .navbar-brand img
+{
+	height: 93px;
+	width: 63px;
+}
+#header-area a.nav-link {
+    color: black!important;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 20px!important;
+}
+#header-area ul.navbar-nav.ml-auto {
+    padding-right: 30px;
+}
+#header-area a.navbar-brand {
+    padding-left: 30px;
+}
+#header-area button.btn-btn a {
+    background: none;
+    border: 1px solid #0181fe;
+    border-radius: 100px;
+    padding: 10px 40px;
+    color: #fff;
+    font-size: 18px;
+    font-family: raleway;
+    background: linear-gradient(to right, #0181fe ,#271e8c) ;   
+    
+}
+#header-area ul li a:hover
+{
+   background: linear-gradient(to right, #0181fe ,#271e8c) ; 
+   color: #fff!important;
+}
+#header-area button.btn-btn {
+    border: none;
+    background: no-repeat;
+}
+#banner-area .btn 
+{
+    border-width: 0px!important;
+    border-radius: 100px!important;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif!important;
+    text-transform: uppercase!important;
+        font-weight: 500;
+
+}
+#banner-area
+{
+	background: url(../images/banner-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#banner-area .col-lg-12.text-center {
+    padding: 150px 0;
+    color: #fff;
+}
+#banner-area button.first-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 5px 57px;
+    border: 1px solid gray;
+    border-radius: 100px;
+}
+#banner-area button.first-btn:hover
+{
+		    background: linear-gradient(to right, #0181fe ,#271e8c) ;   
+
+}
+#banner-area i.fas.fa-arrow-right {
+    margin-left: 20px;
+}
+#banner-area .content h2
+{
+	padding-bottom: 15px;
+	font-family: raleway;
+	font-size: 32px;
+}
+#banner-area i.fas.fa-arrow-right {
+    color: #fff;
+    font-size: 20px;
+}
+#highlight-area .content1
+{
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	box-shadow: 10px 10px 5px 1 rgba(0,0,0,0.75);
+}
+#highlight-area i.fas.fa-phone ,i.fab.fa-whatsapp
+{
+    font-size: 30px;
+    padding-top: 13px;
+    color: #b1a87e;
+}
+#highlight-area .content1 {
+    box-shadow: 2px 2px 4px 2px rgba(40,40,40,0.6);
+    padding: 35px 0;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    bottom: 100px;
+}
+#highlight-area .content1  a
+{
+	color: black!important;
+	text-decoration: none;
+}
+
+#highlight-area .content1:hover
+{
+	    background: linear-gradient(to right, #0181fe ,#271e8c) ;   
+
+}
+#highlight-area .content1:hover i
+{
+	color: #fff!important;
+}
+#highlight-area .content1:hover p
+{
+	color: #fff!important;
+}
+#highlight-area .content1:hover a
+{
+	color: #fff!important;
+}
+
+#highlight-area .col-lg-4 {
+    padding: 30px;
+}
+#highlight-area .icon 
+{
+    padding: 0 15px;
+}
+#highlight-area .icon img {
+    height: 60px;
+}
+#highlight-area .contact p,i
+{
+   margin-bottom: 0;
+   color: black
+}
+#about-area button.btn-two {
+    background: none;
+    border: 1px solid #0181fe;
+    border-radius: 100px;
+    padding: 10px 40px;
+    color: #fff;
+    font-size: 18px;
+    font-family: raleway;
+    background: linear-gradient(to right, #0181fe ,#271e8c) ;   
+    
+}
+section#about-area {
+}
+/*----------counter area start---------*/
+
+#counter-area
+{
+	background:linear-gradient(to right,#0181fe,#271e8c);
+	margin-top: 60px;
+}
+#counter-area .p-80
+{
+	padding-bottom: 80px;
+}
+#counter-area i
+{
+	padding-top: 68px;
+	color: #fff;
+	font-size: 40px;
+}
+#counter-area p
+{
+	color: #fff;
+	font-size: 40px;
+	padding: 28px 0 14px 0;
+}
+#counter-area span
+{
+	font-weight: 300;
+	font-size: 14px;
+	font-family: montserrat;
+	color:#fff;
+}
+#counter-area span::after
+{
+	content: '';
+    height: 2px;
+    width: 35px;
+    direction: block;
+    display: block;
+    background: #fbfaf8;
+    position: relative;
+    left: 63px;
+    top: 17px;
+}
+/*----------counter area end---------*/
+
+
+/*----------------contact-area start-----------*/
+
+#contact-area
+{
+	background-image: url(../images/img11.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+#contact-area .form-control
+{
+	border:1px solid #80998e!important;
+	background: none!important;
+}
+#contact-area input.form-control.bt-0 
+{
+    border-top: none!important;
+}
+button.btn.btn-primary.br 
+{
+    float: right;
+    background: none;
+    padding: 10px 30px;
+}
+#contact-area label
+{
+	padding-top: 8px;
+}
+#contact-area h6
+{
+	font-weight: 400;
+	font-size: 40px;
+	color: #0181fe;
+	font-family: raleway;
+	padding-top: 75px;
+	margin-bottom: 0;
+}
+#contact-area p
+{
+	font-weight: 400;
+	font-size: 15px;
+	color: #fff;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	margin-bottom: 0;
+}
+#contact-area label
+{
+	font-weight: 400;
+	font-size: 15px;
+	color: #fff;
+	padding-bottom: 70px;
+}
+/*----------------contact-area end-----------*/
+
+/*----------------footer-area end-----------*/
+#footer-area i
+{
+	padding: 10px;
+	background:linear-gradient(to right,#0181fe,#271e8c);
+	color: #fff;
+	margin: 20px 0;
+	float: right;
+	margin-left: 15px;
+}
+#footer-area p
+{
+	font-size: 15px;
+	padding: 20px 0;
+	font-weight: 400;
+	color:  #0181fe;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+#footer-area
+{
+	background: #f6f9f9;
+}
+/*----------------footer-area end-----------*/
+
+
+
+@media screen and (max-width: 768px) 
+{
+	
+#counter-area span::after {
+    content: '';
+    height: 2px;
+    width: 35px;
+    display: block;
+    background: #fbfaf8;
+    position: relative;
+    left: 238px;px;
+    top: 17px;
+}
+}
+
+
+/*-------- Extra small devices (portrait phones, less than 576px)-----*/
+@media (max-width: 575.98px) 
+{
+	#counter-area span::after
+	{
+		left: 148px;
+	}
+}
+
+
+
+
+
+
+
